@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="super-star-pimps-service" />
+        <module name="super-star-pimps-utils" />
+        <module name="super-star-pimps-repository" />
+        <module name="super-star-pimps-business" />
+        <module name="super-star-pimps-domain" />
+        <module name="super-star-pimps-integrations" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="super-star-pimps-domain" target="1.5" />
+      <module name="super-star-pimps-integrations" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
